@@ -43,3 +43,5 @@ Each blob type has its own set of configurable parameters:
 - curved_shapes: True for smooth blobs, False for polygonal blobs.
 - avoid_overlap: True to avoid overlapping existing blobs, False to allow overlap.
 - num_points_per_blob: Number of points defining each blob shape.
+
+If you discover any issues with the script or have some suggestions, please put them in the issues portion of this repository and when I find the time I'll add them, or someone cool will add it themselves!
