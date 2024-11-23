@@ -1,5 +1,8 @@
 # Arma 3 Satellite Mask/Shape Blob Generator
 
+![Blob Image](https://imgur.com/rIInbdP)
+![Source Image](https://imgur.com/Ahku6N9)
+
 ## Features
 
 - **Random Blob Generation**: Creates organic natural looking blob shapes with customizable properties.
