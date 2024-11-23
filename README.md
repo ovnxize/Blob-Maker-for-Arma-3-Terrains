@@ -23,14 +23,14 @@ The script can be run directly from the command line. It will prompt you for inp
 General Settings
 - input_path: Path to the input image, no quotation marks.
 - output_path: Path where the output image will be saved, no quotation marks.
-- target_color: RGB values of the color you want the blobs to be contained in.
+- target_color: RGB values of the color you want the blobs to be contained in. Should be the same color as the one in your layers.cfg you exported with in Terrain Builder.
 - color_tolerance: Tolerance for color detection (0-255).
 - buffer_size: Size of the buffer zone around target areas where blobs can be placed (in pixels). 
 
 Blob Types
 Each blob type has its own set of configurable parameters:
 
-- blob_color: RGB values of the blob color.
+- blob_color: RGB values of the blob color. Based on your layers.cfg if using for Satellite Mask.
 - average_blob_size: Average size of the blobs (in pixels).
 - size_variance: Variance in blob size.
 - max_blob_size: Maximum blob size.
