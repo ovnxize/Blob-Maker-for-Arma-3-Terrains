@@ -36,8 +36,8 @@ default_config = {
             "max_num_blobs": 200,  # Maximum number of blobs
             "min_num_blobs": 50,  # Minimum number of blobs
             "randomness": 0.3,  # Randomness factor for blob shape (0.0 - 1.0)
-            "min_elongation": 0.5,  # Minimum elongation factor
-            "max_elongation": 1.0,   # Maximum elongation factor
+            "min_elongation": 0.9,  # Minimum elongation factor
+            "max_elongation": 1.1,   # Maximum elongation factor
             "curved_shapes": True,    # Whether to use curved shapes
             "avoid_overlap": False    # Whether to avoid overlapping other blobs
         }
