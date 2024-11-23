@@ -48,4 +48,10 @@ Each blob type has its own set of configurable parameters:
 - avoid_overlap: True to avoid overlapping existing blobs, False to allow overlap.
 - num_points_per_blob: Number of points defining each blob shape.
 
+## Known Issues
+
+- Large amount of blobs to generate with multiple blobs will take a LONG time. Reducing randomness, disabling smooth lines, and the number of points will speed up the process.
+- Probably won't work very well with users with 8GB memory or less.
+
+
 If you discover any issues with the script or have some suggestions, please put them in the issues portion of this repository and when I find the time I'll add them, or someone cool will add it themselves!
