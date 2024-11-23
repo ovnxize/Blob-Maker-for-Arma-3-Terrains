@@ -1,0 +1,85 @@
+{
+    "max_blob_size": 250,
+    "min_blob_size": 45,
+    "max_num_blobs": 850,
+    "min_num_blobs": 500,
+    "blob_color": [
+        120,
+        120,
+        120
+    ],
+    "green_tolerance": 100,
+    "num_points_per_blob": 15,
+    "input_path": "P:\\ovn\\ovn_elsinore_300km\\source\\shapeimagery\\PineForest_LowDensity\\shapeimagery.png",
+    "output_path": "P:\\ovn\\ovn_elsinore_300km\\source\\shapeimagery\\blobimage.png",
+    "buffer_size": 85,
+    "randomness": 0.5,
+    "target_color": [
+        2,
+        255,
+        0
+    ],
+    "color_tolerance": 100,
+    "blob_types": [
+        {
+            "name": "Type 1",
+            "blob_color": [
+                120,
+                120,
+                0
+            ],
+            "max_blob_size": 85.0,
+            "min_blob_size": 5.0,
+            "max_num_blobs": 3400,
+            "min_num_blobs": 3000,
+            "randomness": 0.5,
+            "min_elongation": 0.9,
+            "max_elongation": 1.15,
+            "num_points_per_blob": 8,
+            "average_blob_size": 35.0,
+            "size_variance": 25.0,
+            "curved_shapes": true,
+            "avoid_overlap": false
+        },
+        {
+            "name": "Type 2",
+            "blob_color": [
+                120,
+                120,
+                0
+            ],
+            "average_blob_size": 10.0,
+            "size_variance": 25.0,
+            "max_blob_size": 45.0,
+            "min_blob_size": 3.0,
+            "max_num_blobs": 800,
+            "min_num_blobs": 700,
+            "randomness": 0.4,
+            "min_elongation": 0.9,
+            "max_elongation": 1.1,
+            "curved_shapes": false,
+            "avoid_overlap": true,
+            "num_points_per_blob": 7
+        },
+        {
+            "name": "Type 3",
+            "blob_color": [
+                255,
+                255,
+                0
+            ],
+            "average_blob_size": 200.0,
+            "size_variance": 20.0,
+            "max_blob_size": 1200.0,
+            "min_blob_size": 50.0,
+            "max_num_blobs": 450,
+            "min_num_blobs": 300,
+            "randomness": 0.4,
+            "min_elongation": 0.9,
+            "max_elongation": 1.1,
+            "curved_shapes": true,
+            "avoid_overlap": false,
+            "num_points_per_blob": 12
+        }
+    ]
+}
