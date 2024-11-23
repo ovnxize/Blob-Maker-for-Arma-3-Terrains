@@ -1,0 +1,66 @@
+{
+    "max_blob_size": 250,
+    "min_blob_size": 45,
+    "max_num_blobs": 850,
+    "min_num_blobs": 500,
+    "blob_color": [
+        120,
+        120,
+        120
+    ],
+    "green_tolerance": 100,
+    "num_points_per_blob": 15,
+    "input_path": "P:\\ovn\\ovn_elsinore_300km\\source\\shapeimagery\\PineForest\\shapeimagery.png\\",
+    "output_path": "P:\\ovn\\ovn_elsinore_300km\\source\\shapeimagery\\blobimage.png",
+    "buffer_size": 85,
+    "randomness": 0.5,
+    "target_color": [
+        2,
+        255,
+        0
+    ],
+    "color_tolerance": 100,
+    "blob_types": [
+        {
+            "name": "Type 1",
+            "blob_color": [
+                120,
+                120,
+                0
+            ],
+            "max_blob_size": 150.0,
+            "min_blob_size": 10.0,
+            "max_num_blobs": 3400,
+            "min_num_blobs": 2000,
+            "randomness": 0.7,
+            "min_elongation": 0.9,
+            "max_elongation": 1.15,
+            "num_points_per_blob": 8,
+            "average_blob_size": 50.0,
+            "size_variance": 30.0,
+            "curved_shapes": true,
+            "avoid_overlap": false,
+            "shape_smoothness": 0.65
+        },
+        {
+            "name": "Type 2",
+            "blob_color": [
+                120,
+                120,
+                0
+            ],
+            "average_blob_size": 25.0,
+            "size_variance": 20.0,
+            "max_blob_size": 65.0,
+            "min_blob_size": 10,
+            "max_num_blobs": 800,
+            "min_num_blobs": 700,
+            "randomness": 0.4,
+            "min_elongation": 0.9,
+            "max_elongation": 1.1,
+            "curved_shapes": true,
+            "avoid_overlap": true,
+            "num_points_per_blob": 7
+        }
+    ]
+}
