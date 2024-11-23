@@ -50,7 +50,7 @@ Each blob type has its own set of configurable parameters:
 
 ## Known Issues
 
-- Large amount of blobs to generate with multiple blobs will take a LONG time. Reducing randomness, disabling smooth lines, and the number of points will speed up the process.
+- Large amount of blobs to generate with multiple blobs types will take a LONG time. Reducing randomness, disabling smooth lines, and the number of points will speed up the process.
 - Probably won't work very well with users with 8GB memory or less.
 
 
