@@ -20,6 +20,10 @@
 
 The script can be run directly from the command line. It will prompt you for input and output image paths and configuration settings. A config.json file is created to store configuration settings, make sure to back it up if it's a setting you like and would want to use in the future. The configuration is divided into general settings and blob type configurations. You must have a black background to the image if you are working with an image that is not entirely the target color.
 
+Command Line Arguments
+- "-n" or "--no_prompt" will skip the blob configuration step of the script.
+- "-c" or "--config" will allow you to set the path to a saved config file so you don't have to re-input values for another blob variation.
+
 General Settings
 - input_path: Path to the input image, no quotation marks.
 - output_path: Path where the output image will be saved, no quotation marks.
