@@ -30,7 +30,6 @@ General Settings
 Blob Types
 Each blob type has its own set of configurable parameters:
 
-- name: Name of the blob type.
 - blob_color: RGB values of the blob color.
 - average_blob_size: Average size of the blobs (in pixels).
 - size_variance: Variance in blob size.
